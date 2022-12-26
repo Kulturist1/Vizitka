@@ -1,0 +1,89 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+.header {
+	margin: 0 auto;
+	padding: 20px;
+	border-bottom: 1px solid gray;
+}
+.header__menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+.header__item {
+	list-style: none;
+}
+.header__link {
+}
+.link:hover {
+	color:  grey;
+	opacity: 50%;
+}
+.link {
+	color: darkblue;
+}
+.main {
+	margin: 0 auto;
+	padding: 50px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+	border-bottom: 1px solid gray;
+}
+.main__contacts {
+	text-align: center;
+}
+.contacts__img {
+	border: 1px solid gray;
+}
+.contacts__title {
+}
+.contacts__phone{
+	margin-bottom: -6px;
+}
+.contacts__mail{
+	margin-bottom: -6px;
+}
+.contacts__social{
+	margin-bottom: -6px;
+}
+.contacts__text{
+}
+.contacts {
+}
+.contacts__link {
+
+}
+.about {
+}
+.about__title {
+	color: grey;
+	margin-bottom: 75px;
+}
+.about__subtitle {
+	border-left: 5px solid rgb(47, 10, 107);
+    padding-left: 10px;
+    color: gray;
+    margin-top: 30px;
+}
+.about__text {
+	font-style: italic;
+}
+.about__menu {
+}
+.about__item {
+}
+.footer {
+	margin: 0 auto;
+	padding: 20px;
+	color: gray;
+}
+.footer__menu {
+	display: block;
+	text-align: center;
+}
+.footer__link {
+}
+.footer__year {
+}
